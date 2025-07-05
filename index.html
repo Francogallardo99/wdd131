@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Franco Gallardo - Principal page of Dynamic Web Fundamentals and personal information.">
     <meta name="author" content="JFranco Gallardo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>WDD 131 - Dynamic Web Fundamentals - Franco Gallardo</title>
     <link rel="stylesheet" href="styles/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
 
@@ -15,32 +19,39 @@
         <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span> - Franco Gallardo
     </h1>
     </header>
-    <a href="https://www.linkedin.com/in/franco-gallardo-4b2570244/">Linkedin</a>
-    <a href="https://byupw.instructure.com/">Canvas</a>
-    <a href="https://www.churchofjesuschrist.org/study/scriptures/ot/isa/53?lang=spa&id=p3-p5#p3">Scripture</a>
-    <a href="">Final Project</a>
+    <nav>
+        <a href="https://www.linkedin.com/in/franco-gallardo-4b2570244/">Linkedin</a>
+        <a href="https://byupw.instructure.com/">Canvas</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/ot/isa/53?lang=spa&id=p3-p5#p3">Scripture</a>
+        <a href="">Final Project</a>
+    </nav>
 
     <main>
         <h1>Franco Gallardo</h1>
         <section class="card">
-        <h2>About me</h2>
         <img src="images/profile.jpg" alt="Description of image 1">
-        <p>My name is Franco Gallardo, I'm 26 years old, and I live in Argentina. I currently work at a call center in technical support. I really enjoy spending time with my friends, and one of my hobbies is playing video games.</p>
+        <div>
+            <h2>About me</h2>
+            <p>My name is Franco Gallardo, I'm 26 years old, and I live in Argentina. I currently work at a call center in technical support. I really enjoy spending time with my friends, and one of my hobbies is playing video games.</p>
+        </div>
         </section>
 
     <section class="card">
-        <h2>Argentina </h2>
         <img src="images/banderaargentina.jpg" alt="Description of image 2">
-        <p>Argentina is a country located in the southernmost part of South America. It's a vast country with a very diverse culture and varied climates. It's well-known for its passion for football and for mate (a typical beverage).</p>
+        <div>
+            <h2>Argentina </h2>
+            <p>Argentina is a country located in the southernmost part of South America. It's a vast country with a very diverse culture and varied climates. It's well-known for its passion for football and for mate (a typical beverage).</p>
         </section>
+        <div>
+
     </main>
 
     <div class="right-sidebar" contenteditable>Right Sidebar</div>
 
     <footer contenteditable>
-        <p>&copy; <span id="currentyear"></span> Franco Gallardo . Argentina.</p>
+        <p>&copy; <span id="currentyear"></span>Franco Gallardo - Argentina.</p>
         <p id="lastModified"></p>
     </footer>
 
-</body>
+</body> 
 </html>
