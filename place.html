@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Franco Gallardo - Landscapes of  Argentina.">
+    <meta name="author" content="Franco Gallardo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>WDD 131 - Landscapes of Argentina - Franco Gallardo</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Argentina</h1>
+    </header>
+    <main>
+        <picture>
+                <source srcset="images/Argentina-Large.webp" media="(min-width: 1000px)">
+                <source srcset="images/Argentina-Medium.webp" media="(min-width: 500px)">
+                <img src="images/Argentina-Small.webp" alt="Landscape of Argentina" width="500" height="250">
+        </picture>
+        <div class="data">
+            <h1>Data</h1>
+            <p>Area: 2,780,400 km²</p>
+            <p>Poblation: 45,376,763</p>
+            <p>Capital: Buenos Aires</p>
+            <p>Lenguage: Spanish</p>
+            <p>Currency: Argentine peso</p>
+            <p>Time zone: UTC-3</p>
+            <p>Calling code: +54</p>
+            <p>Independence: July 9, 1816</p>
+            <p>Internet TLD: .ar</p>
+        </div>
+        <div class="weather">
+            <h1>Weather 🌤️</h1>
+            <img src="images/weather_icon.svg" alt="Weather Icon" width="50" height="50">
+            <p>Temperature:</p>
+            <p>Condition:</p>
+            <p>Wind:</p>
+            <p>Wind Chill:</p>
+
+        </div>
+    </main>
+    <footer contenteditable>
+            <p>&copy; <span id="currentyear"></span> ✩ Franco Gallardo ✩ Argentina ✩</p>
+            <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

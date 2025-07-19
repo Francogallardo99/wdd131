@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: #FFFAFA;
+}
+header{
+    background-color: #42BFDD;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+picture img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.data{
+    text-align: center;
+    font-size: 1rem;
+    border: #42BFDD 5px solid;
+    border-radius: 10px;
+    margin: 1px;
+}
+.weather{
+    text-align: center;
+    border: #42BFDD 5px solid;
+    border-radius: 10px;
+    margin: 1px;
+}
+
+footer{
+    background-color: #42BFDD;
+    text-align: center;
+    padding: 1rem;
+}

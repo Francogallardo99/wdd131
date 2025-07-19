@@ -1,0 +1,40 @@
+@media only screen and (min-width: 800px) {
+    main {
+    position: relative;
+    }
+
+    .data h1 {
+    background-color: #42BFDD; 
+    color: white; 
+    padding: 10px 20px; 
+    margin: 0;
+    text-align: left; 
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+    .data{
+        text-align: center;
+        background-color: rgba(242, 240, 239, 0.7);
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        padding: 1rem;
+    }
+    .weather h1 {
+        background-color: #42BFDD; 
+        color: white; 
+        padding: 10px 20px; 
+        margin: 0;
+        text-align: left; 
+        font-size: 1.5rem;
+        border-radius: 10px;
+    }
+    .weather {
+        text-align: center;
+        background-color: rgba(242, 240, 239, 0.7);
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+        padding: 1rem;
+    }
+}
