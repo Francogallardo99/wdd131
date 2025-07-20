@@ -37,9 +37,7 @@ if (windChillElement) {
     } else { 
         windChillElement.textContent = `N/A`;
     }
-} else {
-        console.warn("Item with ID 'windChillValue' not found. Wind chill could not be displayed.");
-}
+} 
 
 function calculateWindChill(tempC, windKmh) {
 
