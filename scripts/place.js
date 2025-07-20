@@ -13,7 +13,7 @@ lastModifiedParagraph.textContent = `Last Modified: ${document.lastModified}`;
 
 const staticTemperatureC = 5;
 const staticWindSpeedKmh = 15;
-const staticCondition = "cloudy"; 
+const staticCondition = "Cloudy"; 
 
 const temperatureElement = document.getElementById('temperatureValue');
 const conditionElement = document.getElementById('conditionValue');
