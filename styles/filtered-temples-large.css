@@ -1,0 +1,54 @@
+@media only screen and (min-width: 600px) {
+    main {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    header h1 {
+        flex-basis: auto;
+        text-align: left;
+        font-size: 2.5rem;
+    }
+
+    header {
+        background-color: antiquewhite;
+        color:black;
+    }
+
+    .menu-button {
+        display: none; 
+    }
+    nav {
+        display: block;
+        flex-basis: auto; 
+        text-align: right;
+    }
+    
+    nav ul {
+        flex-direction: row;
+        gap: 3rem; 
+        padding: 0;
+        margin: 0;
+    }
+    
+    a {
+        color: black;
+    }
+    main {
+        grid-template-columns: repeat(3, 1fr); 
+        background-color: transparent;
+        }
+    
+    figcaption {
+        font-size: 1.5rem; 
+        color: #222;         
+    }
+
+    footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #D6D4A0; 
+        color: black;
+    }
+}
