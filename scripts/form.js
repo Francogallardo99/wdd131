@@ -43,12 +43,25 @@ if (selectElement) {
     products.forEach(product => {
         const option = document.createElement("option");
         
-        option.textContent = product;
+        option.textContent = product.name;
         
-        option.value = product;
+        option.value = product.id;
         
         selectElement.appendChild(option);
     });
 } else {
     console.error("No se pudo encontrar el elemento con ID 'products'.");
+}
+let counter = localStorage.getItem('reviewCounter');
+if (counter === null) {
+    counter = 0;
+} else {
+    counter = parseInt(counter);
+}
+counter++;
+
+localStorage.setItem('reviewCounter', counter);
+const reviewCounterElement = document.getElementById('reviewCounter');
+if (reviewCounterElement) {
+    reviewCounterElement.textContent = `Total Reviews: ${counter}`;
 }
