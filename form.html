@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Franco Gallardo - Form.">
+    <meta name="author" content="Franco Gallardo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>WDD 131 - Form - Franco Gallardo</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form_large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>
+            Product Review Form
+        </h1>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <div>
+                <select name="products" id="products" class="products" required>
+                <option value="" selected disabled>Choose a product</option>
+                </select>
+            </div>
+
+            <fieldset>
+                <legend>Overall Rating*</legend>
+                <div class="stars">
+                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                </div>
+            </fieldset>
+
+            <div>
+                <label for="installation_date">Installation*</label>
+                <input type="date" name="installations" id="installation_date" required>
+            </div>
+
+            <div class="checkbox-container">
+                <div class="question-title">¿Which features did you find useful in the product?</div>
+                <div class="subtitle">(Select all that apply)</div>
+
+                <div class="option">
+                    <label for="durability">Durability</label>
+                    <input type="checkbox" id="durability" name="useful-features">
+                </div>
+
+                <div class="option">
+                    <label for="design">Design</label>
+                    <input type="checkbox" id="design" name="useful-features">
+                </div>
+
+                <div class="option">
+                    <label for="ease-of-use">Ease of use</label>
+                    <input type="checkbox" id="ease-of-use" name="useful-features">
+                </div>
+
+                <div class="option">
+                    <label for="support">Support</label>
+                    <input type="checkbox" id="support" name="useful-features">
+                </div>
+            </div>
+
+            <div class="review">
+                <label for="comments">Written Review</label>
+                <textarea name="comments" id="comments" rows="5" placeholder="Enter your comments here..."></textarea>
+            </div>
+
+            <div class="name">
+                <label for="name">Name*</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <button type="submit">Send Review</button>
+        </form>
+    </main>
+
+    <footer contenteditable>
+        <p>&copy; <span id="currentyear"></span> - Franco Gallardo - Argentina.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
