@@ -98,3 +98,13 @@ footer {
   margin: 0;
   text-align: center;
 }
+
+.recomendation {
+    background: #FAA4BD;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 3px solid #000;
+    border-radius: 15px;
+    text-align: center;
+}
