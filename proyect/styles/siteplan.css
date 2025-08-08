@@ -108,3 +108,8 @@ footer {
     border-radius: 15px;
     text-align: center;
 }
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #000000;
+}
