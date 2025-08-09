@@ -26,26 +26,41 @@ header h1 {
   font-weight: bold;
 }
 
-nav {
-  grid-column: 3 / 4;
-  display: flex;
-  justify-content: space-around; 
-  align-items: center;
+.menu , .close{
+border: 0;
+display: block; 
+font-size: 1.3rem;
+background-color: transparent;
 }
-
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
+.nav{
+display: flex ;
+flex-direction: column;
+position: absolute;
+top: 1rem;
+right: 1rem;
+bottom: 0;
+background-color: #982649;
+padding: 1rem;
+align-items: end;
+gap: 1rem;
+opacity: 0;
+visibility: hidden;
+font-size: 1.3rem;
 }
-
-nav a {
-  color: white;
+.nav-visible{
+opacity: 1;
+visibility: visible;
+}
+.nav-list{
+flex-direction: column;
+align-items: end;  
+list-style-type: none;
+}
+.nav a {
   text-decoration: none;
-}
+  color: white;
+
+  }
 
 nav a:hover {
   color: #D76A03;

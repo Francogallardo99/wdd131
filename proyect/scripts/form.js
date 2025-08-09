@@ -120,3 +120,4 @@ const reviewCounterElement = document.getElementById('reviewCounter');
 if (reviewCounterElement) {
     reviewCounterElement.textContent = `Total Recomendations: ${counter}`;
 }
+

@@ -19,5 +19,32 @@
     margin: 0;
     text-align: center;
     }
+    .menu, .close {
+    display: none;
+    }
 
+    .nav {
+    position: static; 
+    opacity: 1; 
+    visibility: visible;
+    flex-direction: row; 
+    align-items: center;
+    background-color: transparent; 
+    padding: 0;
+    gap: 1rem;
+    
+    }
+
+    .nav-list {
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    gap: 2rem;
+    }
+
+    .nav a {
+    text-decoration: none;
+    color: white;
+    }
 }
